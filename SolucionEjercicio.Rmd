@@ -1,6 +1,7 @@
 ---
 title: "SolucionEjercicio"
 author: "Carla Ortega Fernández"
+subject: 'Análisis Exploratorio de Datos'
 date: "2026-10-14"
 output: html_document
 ---
