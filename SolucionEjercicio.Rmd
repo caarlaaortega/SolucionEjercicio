@@ -120,7 +120,5 @@ noComunes
 
   * Determina las diferencia entre los animales que no aparecen en ambos conjuntos.
 
-```{r}
-
-```
+Realmente, en el apartado anterior se ha podido observar es que la principal diferencia es que Animals2 cuenta con animales que no son mamíferos, como serían los dinosaurios que no tienen en común. Esto se ve por que además el tamaño del dataset es mayor. Por otro lado, mammals cuenta con todo mamíferos, además de algunos adicionales que no están contemplados en Animals2. 
 
