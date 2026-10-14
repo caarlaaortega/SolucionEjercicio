@@ -37,7 +37,36 @@ Los datos de 'Animals2' contienen el peso del cerebro y del cuerpo de 65 especie
   * Usa las funciones dim, head, tail, str para una primera visión de los conjuntos de datos.
 
 ```{r}
+# Analizamos Animals2:
 
+dim(Animals2) 
+# 65 animales, con 2 variables 
+
+head(Animals2) 
+# Los primeros en aparecer son: Mountain beaver, cow, grey wolf, goat, guinea pig y dipliodocus
+
+tail(Animals2)
+# Los últimos en aparecer son: Brazilian tapir, Tenrec, Phalanger, Tree shrew y red fox
+
+str(Animals2)
+#'data.frame':	65 obs. of  2 variables:
+ #$ body : num  1.35 465 36.33 27.66 1.04 ...
+ #$ brain: num  8.1 423 119.5 115 5.5 ...
+
+# Analizamos mammals:
+dim(mammals)
+# Hay 62 mamíferos con dos características
+
+head(mammals)
+# Los primeros en aparecer son: arctic fox, owl monkey, mountain beaver, cow, grey wolf y goat. 
+
+tail(mammals)
+# Los últimos en aparecer son: Echidna, Brazilian tapir, tenrec, phalanger, tree shrew y red fox
+
+str(mammals)
+#'data.frame':	62 obs. of  2 variables:
+ #$ body : num  3.38 0.48 1.35 465 36.33 ...
+ #$ brain: num  44.5 15.5 8.1 423 119.5 ...
 ```
   
   * Muestra los nombres de las filas y las columnas (rownames, colnames)
