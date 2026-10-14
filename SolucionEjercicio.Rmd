@@ -72,7 +72,11 @@ str(mammals)
   * Muestra los nombres de las filas y las columnas (rownames, colnames)
   
 ```{r}
+rownames(Animals2) # los animales
+colnames(Animals2) # body y brain
 
+rownames(mammals) # los mamíferos
+colnames(mammals) # body y brain
 ```
 
   
