@@ -13,9 +13,57 @@ knitr::opts_chunk$set(echo = TRUE)
 # Fase 2. 
 
 Considera los conjuntos de datos mammals del paquete MASS y Animals2 del paquete robustbase.
+
+```{r}
+# Cargamos los paquetes MASS y robustbase
+install.packages('MASS')
+library(MASS)
+install.packages('robustbase')
+library(robustbase)
+
+data(mammals)
+data(Animals2)
+```
+
   * Mira la las características de ambos conjuntos usando la ayuda.
-Usa las funciones dim, head, tail, str para una primera visión de los conjuntos de datos.
+
+```{r}
+?mammals
+?Animals2
+```
+Los datos de 'mammals' contienen el peso del cerebro y del cuerpo de 62 especies de mamíferos terrestres, en g y kg, respectivamente. 
+Los datos de 'Animals2' contienen el peso del cerebro y del cuerpo de 65 especies de animales terrestres (siendo estos la unión de mammals y Animals)
+
+  * Usa las funciones dim, head, tail, str para una primera visión de los conjuntos de datos.
+
+```{r}
+
+```
+  
   * Muestra los nombres de las filas y las columnas (rownames, colnames)
-Usa la función intersect y almacena en la variable commonAnimals los aminales que aparezcan en ambos conjuntos
+  
+```{r}
+
+```
+
+  
+  * Usa la función intersect y almacena en la variable commonAnimals los aminales que aparezcan en ambos conjuntos
+
+```{r}
+
+```
+
+
   * Usa setdiff para averiguar qué animales no están en ambos conjuntos. ¿Cuántos son ?. ¿Qué tipo de animales son?
+  
+```{r}
+
+```
+  
+
   * Determina las diferencia entre los animales que no aparecen en ambos conjuntos.
+
+```{r}
+
+```
+
