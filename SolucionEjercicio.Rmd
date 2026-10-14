@@ -100,6 +100,21 @@ soloAnimals2
 length(soloAnimals2)
 
 # Son 7 animales los que no están en mammals, y son el dipliodocus, potar monkey, triceratops, brachiosaurus, mole, artic fox y artic ground squirrel
+
+soloMammals <- setdiff(
+  rownames(mammals),
+  rownames(Animals2)
+)
+
+soloMammals
+length(soloMammals)
+# Los animales que no están en Animals2 son arctic fox, arctic ground squirrel, patas monkey y mole rat, y son 4
+
+noComunes <- union(soloAnimals2, soloMammals)
+length(noComunes)
+noComunes
+
+# En total no tienen en común 11 animales, que son todos los anteriores
 ```
   
 
