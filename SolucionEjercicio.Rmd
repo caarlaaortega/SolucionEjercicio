@@ -92,7 +92,14 @@ commonAnimals <- intersect(rownames(Animals2), rownames(mammals))
   * Usa setdiff para averiguar qué animales no están en ambos conjuntos. ¿Cuántos son ?. ¿Qué tipo de animales son?
   
 ```{r}
+soloAnimals2 <- setdiff(
+  rownames(Animals2), 
+  rownames(mammals)
+)
+soloAnimals2
+length(soloAnimals2)
 
+# Son 7 animales los que no están en mammals, y son el dipliodocus, potar monkey, triceratops, brachiosaurus, mole, artic fox y artic ground squirrel
 ```
   
 
